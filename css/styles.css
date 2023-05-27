@@ -1,0 +1,47 @@
+h1 {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 65px;
+}
+
+img {
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-family: 'Londrina Solid', cursive;
+  font-family: 'Oleo Script', cursive;
+  font-size: 65px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+h3 {
+  font-family: 'Courgette', cursive;
+  font-family: 'Londrina Solid', cursive;
+  font-family: 'Oleo Script', cursive;
+}
+
+h5 {
+  font-family: 'Londrina Solid', cursive;
+  font-family: 'Oleo Script', cursive;
+  font-size: 40px;
+}
+
+.perro {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.gato {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cargo-foto{
+  display: flex;
+}
+
+.cargo-foto img{
+  width: 100%;
+}
