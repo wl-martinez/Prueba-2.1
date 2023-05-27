@@ -38,10 +38,28 @@ h5 {
   margin-bottom: 50px;
 }
 
-.cargo-foto{
+.foto-cargo{
   display: flex;
 }
 
-.cargo-foto img{
+.foto-cargo img{
   width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.perrito img{
+  width: 40%;
+}
+
+.gatito img{
+  width: 40%;
 }
