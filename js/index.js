@@ -8,7 +8,7 @@ function getCharacters(done) {
 }
 
 getCharacters(data => {
-  data.results.slice(0, 3).forEach(personaje => { // Utilizamos slice(0, 3) para obtener solo los primeros tres personajes
+  data.results.slice(0, 3).forEach(personaje => {
     const article = document.createRange().createContextualFragment(/*html*/`
       <article>
         <h5>* ${personaje.name}</h5>
